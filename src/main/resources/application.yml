@@ -10,6 +10,6 @@ logging:
 
 okta:
   oauth2:
-    issuer: https://dev-wgrfncmy5tahnvay.us.auth0.com/
-    client-id: ol7AX5wMtZ7MdEFgdOEsjd8iJAu75udo
-    client-secret: m3mvY5MGI1rkNSSGNhkQDpAwn9V_Jre6-XzvCNca_tm_wN-bY8IfCHgMBEZ0kPZG
+    issuer: ${OAUTH_URI}
+    client-id: ${CLIENT_ID}
+    client-secret: ${CLIENT_SECRET}
